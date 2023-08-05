@@ -25,14 +25,37 @@
     <div id="right">
         <h1>Get Started</h1>
 
-        <div id="form-area">
-            <form action="POST">
-                
-            </form>
-        </div>
+        <form id="myForm" action="POST">
+            <div class="input-container">
+                <input type="text" placeholder="FIRST NAME"></input>
+            <p>*This field is Required</p>
+            </div>
+            <div class="input-container">
+                <input type="text" placeholder="LAST NAME"></input>
+            <p>*This field is Required</p>    
+            </div>
+            <div class="input-container">
+                <input type="email" placeholder="E-MAIL"></input>
+            <p>*This field is Required</p>
+            </div>
+            <div class="input-container">
+                <input type="phone" placeholder="PHONE"></input>
+            <p>*This field is Required</p>
+            </div>
+            <div class="input-container">
+                <input type="text" placeholder="PASSWORD"></input>
+            <p>*This field is Required</p>
+            </div>
+            <div class="input-container">
+                <input type="text" placeholder="CONFIRM PASSWORD"></input>
+            <p>*This field is Required</p>
+            </div>
+        </form>
+
 
         <div id="submit-area">
-            <button>Create Account</button>
+            <button type="submit" form="myForm">Create Account</button>
+            <p>Already have an account..? <span>LOG IN</span></p>
         </div>
     </div>
 
