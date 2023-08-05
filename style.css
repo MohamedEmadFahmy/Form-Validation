@@ -122,6 +122,10 @@ input {
     outline: none;
 }
 
+[type="email"]{
+    width: 15vw;
+}
+
   /* transition: 3s ease-in-out; */
 input:focus {
     outline: none;
