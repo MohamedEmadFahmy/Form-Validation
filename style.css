@@ -82,7 +82,7 @@ body {
 
 #right h1{
     color: white;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 form {
@@ -118,7 +118,7 @@ input {
     font-weight: bold;
     padding-left: 10px;
     border-radius: 2.5%;
-    transition: border-color 0.3s;
+    transition: box-shadow 0.3s;
     outline: none;
 }
 
@@ -151,6 +151,10 @@ input:focus {
     margin-top: 20px;
     font-size: 17px;
     outline: none;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 #submit-area p{
